@@ -1,0 +1,10 @@
+## System and generated files
+.idea
+.DS_Store
+.package-lock.json
+.sass-cache
+
+## Directories
+log/
+dist/
+node_modules/
