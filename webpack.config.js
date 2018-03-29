@@ -25,17 +25,18 @@ const config = {
 
     module: {
         rules: [
-            // babel-loader with 'env' preset
             {
                 test: /\.js$/,
                 include: /src/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: ['env']
+                use: [
+                    {
+                        loader: "babel-loader",
+                    },
+                    {
+                        loader: 'eslint-loader',
                     }
-                }
+            ]
             },
             // html-loader
             {

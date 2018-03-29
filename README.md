@@ -1,4 +1,4 @@
-# Webpack 3 Boilerplate
+# React, Redux, Webpack 3 Boilerplate
 
 ## Install dependencies
 
@@ -28,12 +28,13 @@ npm run build:prod
 
 ### Loaders
 * babel-loader
+* eslint-loader
 * html-loader
 * sass-loader
 * css-loader
 * style-loader
+* postcss-loader (autoprefixer and stylelint)
 * file-loader
-* postcss-loader (autoprefixer)
 
 ### Plugins
 * clean-webpack-plugin

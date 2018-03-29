@@ -2,4 +2,4 @@ const initialState = {
     testReducer: {}
 };
 
-export default initialState
+export default initialState;

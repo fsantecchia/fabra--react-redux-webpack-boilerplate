@@ -10,4 +10,4 @@ const allReducers = combineReducers({
     testReducer: TestReducer
 });
 
-export default allReducers
+export default allReducers;
